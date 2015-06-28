@@ -4,9 +4,9 @@ You should do following excersizes:
 
 ## Task 1 - Show Text in a Browser
 
-Create a PHP page, with the standard HTML <head>, <title> and <body> tags. This is not strictly necessary but is good practice and should the the first step for each exercise. Consider creating a template file with these tags already in place. Remember to save your file with the .php extension.
+Create a PHP page, with the standard HTML `<head>`, `<title>` and `<body>` tags. This is not strictly necessary but is good practice and should the the first step for each exercise. Consider creating a template file with these tags already in place. Remember to save your file with the .php extension.
 
-Inside the <body> tag, create a PHP section that will show the text “Hello World!” in the browser. Check your work by opening the page in a browser. If you get a blank page, check to be sure that you ended each statement with “;” and that you included the opening and closing PHP markers. When you are ready, move on to the answer script.
+Inside the `<body>` tag, create a PHP section that will show the text “Hello World!” in the browser. Check your work by opening the page in a browser. If you get a blank page, check to be sure that you ended each statement with “;” and that you included the opening and closing PHP markers. When you are ready, move on to the answer script.
 
 ## Task 2 - Create and Use Variables
 
@@ -20,11 +20,11 @@ $y=7;
 
 Write code to print out the following:
 
-10 + 7 = 17
-10 - 7 = 3
-10 * 7 = 70
-10 / 7 = 1.4285714285714
-10 % 7 = 3
+	10 + 7 = 17
+	10 - 7 = 3
+	10 * 7 = 70
+	10 / 7 = 1.4285714285714
+	10 % 7 = 3
 
 ## Task 4 - Arithmetic-Assignment Operators and Variables
 
@@ -32,30 +32,30 @@ Arithmetic-assignment operators perform an arithmetic operation on the variable 
 
 Hint: In the script each statement ends with *"Value is now $variable."*
 
-Value is now 8.
-Add 2. Value is now 10.
-Subtract 4. Value is now 6.
-Multiply by 5. Value is now 30.
-Divide by 3. Value is now 10.
-Increment value by one. Value is now 11.
-Decrement value by one. Value is now 10.
+	Value is now 8.
+	Add 2. Value is now 10.
+	Subtract 4. Value is now 6.
+	Multiply by 5. Value is now 30.
+	Divide by 3. Value is now 10.
+	Increment value by one. Value is now 11.
+	Decrement value by one. Value is now 10.```
 
 ## Task 5 -  Variable Content and Destruction
 
 When you are writing scripts, you will often need to see exactly what is inside your variables. For this PHP exercise, think of the ways you can do that, then write a script that outputs the following, using the echo statement only for line breaks.
 
-string(5) "Harry"
-Harry
-int(28)
-NULL
+	string(5) "Harry"
+	Harry
+	int(28)
+	NULL
 
 ## Task 6 - Concatenation of Strings
 
 For this PHP exercise, write a script using the following variable:
-$around="around";
+	$around="around";
 
 Single quotes and double quotes don't work the same way in PHP. Using single quotes (' ') and the concatenation operator, echo the following to the browser, using the variable you created:
-What goes around comes around.
+	What goes around comes around.
 
 ## Task 7 - Variable Data Types
 
@@ -63,11 +63,11 @@ PHP allows several different types of variables. For this PHP exercise, you will
 
 Write a script using one variable “$whatsit” to print the following to the browser. Your echo statements may include no words except “Value is”. In other words, use the function that will output the variable type to get the requested text. Use simple HTML to print each statement on its own line and add a relevant title to your page. Include line breaks in your code to produce clean, readable HTML.
 
-Value is string.
-Value is double.
-Value is boolean.
-Value is integer.
-Value is NULL.
+	Value is string.
+	Value is double.
+	Value is boolean.
+	Value is integer.
+	Value is NULL.
 
 
 Use numbers only in the above variable assignments, not in the echo statements. You will need a third variable as well.
